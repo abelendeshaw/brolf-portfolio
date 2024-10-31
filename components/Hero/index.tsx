@@ -49,7 +49,7 @@ const Hero: React.FC<HeroProps> = () => {
               </span>
             </h1>
             <p className="mb-8">
-              {/*TODO: REPLACE TEXT WITH MAIN TEXT FROM WEBSITE*/}
+
               Brolf Tech revolutionizes tech education for children 👪,
               fostering a culture of innovation and learning🏫.
               Our mission is to empower young minds with the skills and knowledge needed to thrive🚀 in the digital age.
