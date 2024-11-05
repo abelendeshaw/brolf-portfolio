@@ -88,75 +88,125 @@ const SingleBlogPage = async () => {
                 </div>
 
                 <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                  Kobe Steel plant that supplied
+                  Nurturing Future Coders
                 </h2>
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
                     <span className="text-black dark:text-white">Author: </span>{" "}
-                    Jhon Doe
+                    Fatuma Abera and Hayat Tahir
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
-                      Published On: July 30, 2023
+                      Published On: November 1, 2024
                     </span>{" "}
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
                       Category:
                     </span>
-                    Events
+                    Boot Camp Experience
                   </li>
                 </ul>
 
                 <div className="blog-details">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
+                    As the sun shone brightly, I welcomed a new cohort of eager
+                    students to our summer coding boot camp at Aweliya Secondary
+                    School. With excitement in the air, I knew that this would
+                    be a transformative experience not just for the students,
+                    but for me as an instructor as well. Over the weeks, I
+                    witnessed incredible growth, creativity, and resilience, and
+                    I am excited to share some of the highlights of this
+                    journey.
                   </p>
 
                   <p>
-                    Aenean augue ex, condimentum vel metus vitae, aliquam porta
-                    elit. Quisque non metus ac orci mollis posuere. Mauris vel
-                    ipsum a diam interdum ultricies sed vitae neque. Nulla
-                    porttitor quam vitae pulvinar placerat. Nulla fringilla elit
-                    sit amet justo feugiat sodales. Morbi eleifend, enim non
-                    eleifend laoreet, odio libero lobortis lectus, non porttitor
-                    sem urna sit amet metus. In sollicitudin quam est,
-                    pellentesque consectetur felis fermentum vitae.
+                    <h3 className="pt-8">
+                      <b>The First Week </b>
+                    </h3>
+                    Setting the Foundation The first week of boot camp is always
+                    a mix of anticipation and anxiety. Students arrived with
+                    varying levels of experience and age from 7 to 14. All I
+                    could see was the determination in their eyes. We dove into
+                    the basics of Scratch, HTML and CSS, and I made it a
+                    priority to create an inclusive environment where questions
+                    were encouraged. Watching their initial struggles turn into
+                    small victories as they built their first webpages was
+                    incredibly rewarding.
+                    <h3 className="pt-8">
+                      <b>Project-Based Learning: A Hands-On Approach </b>
+                    </h3>
+                    As we moved into project-based learning, the energy in the
+                    classroom shifted. Collaboration became the heartbeat of our
+                    boot camp. Students formed groups to tackle real-world
+                    projects, and I facilitated their brainstorming sessions. I
+                    loved watching them share ideas, solve problems, and learn
+                    from one another. Throughout the boot camp, students
+                    demonstrated their commitment through a variety of exciting
+                    projects. They utilized Scratch to create engaging games,
+                    developed animations, and even built a real-world shopping
+                    tracker app. As they continued to level up their skills,
+                    they designed websites that not only reflected their
+                    personalities but also addressed real-world problems.
+                    <h3 className="pt-8">
+                      <b>Navigating Challenges Together </b>
+                    </h3>
+                    Challenges are an inevitable part of learning to code, and I
+                    encouraged my students to embrace these moments. There were
+                    times when they felt stuck, frustrated by bugs or complex
+                    concepts. I recall a specific instance when the students
+                    were tasked with creating a website using advanced CSS
+                    concepts. The styling presented some challenges, but what
+                    truly impressed me was their determination to research and
+                    tackle the issues overnight. When they returned the next
+                    day, they had found solutions and improved their designs
+                    significantly. Their resilience as they persevered through
+                    challenges and eventually triumphed was one of the most
+                    fulfilling aspects of my role.
+                    <h3 className="pt-8">
+                      <b>Codeathons: A Fun and Engaging Challenge </b>
+                    </h3>
+                    It was an incredible experience where students had the
+                    opportunity to showcase their skills while competing against
+                    their friends. The strong bonds they formed made the event
+                    enjoyable, regardless of who emerged as the winner. This
+                    setting not only allowed them to display their talents but
+                    also provided valuable lessons as they learned from their
+                    mistakes."
+
+                    <div className="flex flex-wrap gap-5">
+                      <Image
+                        src={"/images/blog/blog-01.png"}
+                        width={350}
+                        height={200}
+                        alt="image"
+                        className="mt-10"
+                      />
+                      <Image
+                        src={"/images/blog/blog-02.png"}
+                        width={350}
+                        height={200}
+                        alt="image"
+                        className="mt-10"
+                      />
+                    </div>
+
+                    <h3 className="pt-8">
+                      {" "}
+                      <b> Conclusion: The Impact of Teaching </b>{" "}
+                    </h3>
+                    As the summer boot camp came to a close, they left with not
+                    only newfound coding skills but also confidence and a sense
+                    of belonging in the tech community. I believe they have
+                    gained valuable insights and clarity about their future
+                    aspirations. Teaching this boot camp reaffirmed my belief in
+                    the potential of each student. I am excited to see where
+                    their journeys take them and grateful for the opportunity to
+                    play a part in their development as future coders.
                   </p>
 
-                  <div className="flex flex-wrap gap-5">
-                    <Image
-                      src={"/images/blog/blog-01.png"}
-                      width={350}
-                      height={200}
-                      alt="image"
-                    />
-                    <Image
-                      src={"/images/blog/blog-02.png"}
-                      width={350}
-                      height={200}
-                      alt="image"
-                    />
-                  </div>
 
-                  <h3 className="pt-8">
-                    Nunc elementum elit viverra, tempus quam non
-                  </h3>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
-                  </p>
                 </div>
 
                 <SharePost />

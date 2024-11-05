@@ -4,9 +4,9 @@ const BlogData: Blog[] = [
   {
     _id: 1,
     mainImage: "/images/blog/blog-01.png",
-    title: "Free advertising for your online business",
+    title: "Nurturing Future Coders: Reflections from BrolfTech Summer Boot Camp",
     metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+      "Join us as I witness transformative journey through a summer coding boot camp. From navigating the basics of HTML, CSS, and JavaScript to collaborating on real-world projects, this blog captures the adventure of my student’s summer coding journey.",
   },
   {
     _id: 2,

@@ -13,7 +13,7 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Brolf Tech Portfolio website",
+  title: "Brolf Tech",
   description: "This the brolf tech portfolio website",
   // other metadata
 };
